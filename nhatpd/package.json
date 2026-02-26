@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "demo_extend",
+    "zdemo_link",
+    "zdemo_navigation",
+    "zrap_100",
+    "zsb_poc02_01",
+    "zsb_u2_se16n",
+    "zsb_u4_demo",
+    "zsb_u4_demo_page",
+    "zse16n"
+  ]
+}

@@ -1,0 +1,6 @@
+/* Enter your custom styles here *//* Enter your custom styles here */
+
+.se16nRequiredKeyLabel {
+	color: var(--sapNegativeTextColor);
+	font-weight: 600;
+}

@@ -1,0 +1,27 @@
+<mvc:View controllerName="zsbu4rapse16n.controller.SE16N"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    height="100%">
+    
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <!-- Input Section -->
+            <Panel id="inputPanel" headerText="Database Table" class="sapUiSmallMargin">
+                <content>
+                    <HBox  id="inputBox" class="sapUiSmallMargin">
+                        <Input id="tableInput" placeholder="Enter table name" width="30em" liveChange="onUppercaseInput"/>
+                        <Button id="executeBtn" text="Execute" type="Emphasized" press="onExecute"/>
+                    </HBox >
+                </content>
+            </Panel>
+            
+            <!-- Smart Table Section -->
+            <Panel id="tablePanel" headerText="Table Data" class="sapUiSmallMargin">
+                <content>
+                    <!-- Dynamic table will be created in controller and placed here -->
+                    <VBox id="smartTableContainer" class="sapUiResponsiveContentPadding"/>
+                </content>
+            </Panel>
+        </content>
+    </Page>
+</mvc:View>
